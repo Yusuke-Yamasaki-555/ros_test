@@ -1,0 +1,9 @@
+<launch>
+<!--設定ファイルは<launch>と</launch>で囲む-->>
+
+  <node pkg="ros_test" name="action_server" type="action_server.py" output="screen"/>
+  <node pkg="ros_test" name="action_client" type="action_client.py" output="screen"/>
+  <!--nodeというタグで、実行するrosのノードを指定する-->
+  <!--pkgがパッケージ名、nameがノードの名前(実行ファイル名ではなくこの名前で管理される)、typeが実行ファイル名-->>
+  <!--[追加]outputは指定先に結果を表示する-->>
+</launch>

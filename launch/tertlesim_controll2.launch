@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ros_test" type="vel_bumper.py" name="vel_bumper" output="screen">
+    <param name="vel_x" value="1.0"/>
+  </node>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
+</launch>

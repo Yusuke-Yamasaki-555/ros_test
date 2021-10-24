@@ -1,0 +1,5 @@
+string pass_data
+---
+bool result
+---
+int32 hoge

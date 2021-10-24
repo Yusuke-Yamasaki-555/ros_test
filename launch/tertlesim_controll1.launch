@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="ros_test" type="vel_Publisher.py" name="vel_Publisher" output="screen"/>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
+</launch>
